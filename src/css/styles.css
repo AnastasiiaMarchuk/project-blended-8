@@ -1,11 +1,9 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+:root {
+}
+
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./footer.css');
 @import url('./index/hero-main-page.css');
 @import url('./index/popular-tours-main-pages.css');
 @import url('./index/about-us-main-page.css');
@@ -13,7 +11,6 @@
 @import url('./gallery.css');
 @import url('./reviews.css');
 @import url('./index/call-back-main-page.css');
-@import url('./footer.css');
 @import url('./our-tours/hero-our-tours-page.css');
 @import url('./our-tours/filters-our-tours-page.css');
 @import url('./our-tours/cards-our-tours-page.css');
