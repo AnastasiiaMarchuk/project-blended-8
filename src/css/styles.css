@@ -5,21 +5,23 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+@import url('./index/hero-main-page.css');
+@import url('./index/popular-tours-main-pages.css');
+@import url('./index/about-us-main-page.css');
+@import url('./index/types-of-tours-main-page.css');
+@import url('./gallery.css');
+@import url('./reviews.css');
+@import url('./index/call-back-main-page.css');
+@import url('./footer.css');
+@import url('./our-tours/hero-our-tours-page.css');
+@import url('./our-tours/filters-our-tours-page.css');
+@import url('./our-tours/cards-our-tours-page.css');
+@import url('./our-tours/aside-our-tours-page.css');
+@import url('./about-tour/hero-about-tour-page.css');
+@import url('./about-tour/tour-description-about-tour-page.css');
+@import url('./about-tour/travel-calender-about-tour-page.css');
+@import url('./about-tour/route-description-about-tour-page.css');
+@import url('./about-tour/additional-costs-about-tour-page.css');
+@import url('./about-tour/informations-about-tour-page.css');
+@import url('./about-tour/booking-about-tour-page.css');
