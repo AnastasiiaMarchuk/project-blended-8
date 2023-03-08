@@ -1,0 +1,33 @@
+/* ==================== Hero =============== */
+.hero-about-tour-page {
+  width: 1444px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url('../images/hero-about-tour-page/hero-about/tour.jpg');
+  filter: blur(0.5px);
+
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-size: cover;
+  margin: auto;
+}
+/* .hero-container {
+} */
+
+.hero-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+  color: var(--accent-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.23;
+  color: var(component-color-on-dark-background);
+}
+
+.to-our-tours-link {
+  display: block;
+}
+/* ==================== /Hero =============== */
