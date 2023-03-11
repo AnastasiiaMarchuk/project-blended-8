@@ -1,0 +1,53 @@
+.header-section {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #0499dd;
+
+  margin-bottom: 90px;
+}
+.header-descr {
+  max-width: 550px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #000000;
+
+  margin-bottom: 40px;
+}
+.information-list {
+}
+.sub-header {
+  margin-left: 130px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #0499dd;
+}
+.add-sub {
+  margin-bottom: 86px;
+}
+.sub-descr {
+  max-width: 455px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #282828;
+}
+.example {
+  position: relative;
+  display: flex;
+}
+.icon-sub {
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
