@@ -1,11 +1,7 @@
-:root {
-  --primary-paragraph-color: #282828;
-  --section-title-color:color: #0499DD;
-  --accent-color:#FFC700;
-  --component-color-on-dark-background: #fff;
-}
+
 
 @import url('./reset.css');
+@import url('./global.css');
 @import url('./header.css');
 @import url('./footer.css');
 @import url('./index/hero-main-page.css');
