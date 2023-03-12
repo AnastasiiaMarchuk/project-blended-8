@@ -1,3 +1,8 @@
+.relative-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #D9D9D9;;
+}
 .header-section {
   font-family: 'Montserrat';
   font-style: normal;
@@ -5,39 +10,52 @@
   font-size: 24px;
   line-height: 1.2;
   color: #0499dd;
-
   margin-bottom: 90px;
 }
 .header-descr {
-  max-width: 550px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.2;
   color: #000000;
-
   margin-bottom: 40px;
 }
-.information-list {
+
+.example:before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #ffc700;
+  border-radius: 50%;
+  margin-right: 27px;
+  margin-bottom: 60px;
+}
+.example-pas {
+  position: relative;
+  display: flex;
+}
+
+.icon-sub {
+  display: block;
+  position: absolute;
+  left: 17px;
+  top: 17px;
+}
+.important {
+  width: 455px;
 }
 .sub-header {
-  margin-left: 27px;
-  width: 1000px;
-  height: auto;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   color: #0499dd;
-}
-.add-sub {
-  margin-bottom: 86px;
+  margin-bottom: 20px;
 }
 .sub-descr {
-  max-width: 455px;
-  margin-left: 77px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -45,22 +63,42 @@
   line-height: 1.2;
   color: #282828;
 }
-.example {
-  position: relative;
+.descr-important {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 360px;
+  height: 131px;
+  padding: 23px 23px;
+  background: #ededed;
+  border-radius: 10px;
+  margin-bottom: 4px;
+
+}
+.symbol {
+  font-family: 'Marko One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  color: #ffc700;
+  opacity: 0.4;
+}
+.descr-important .div-descr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #282828;
+}
+.important-container{
   display: flex;
   flex-wrap: wrap;
-}
-.example:before{
-  display: block;
-  content: '';
-  width: 50px;
-  height: 50px;
-  background: #FFC700;
-  border-radius: 50%;
-}
-.icon-sub {
-  position: absolute;
-  left: 17px;
-  top: 17px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  align-content: flex-end;
+  row-gap: 45px;
+
 }
 
