@@ -1,0 +1,29 @@
+.container-style{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.navigation-list{
+  display: flex;
+  gap: 20px;
+
+}
+
+.logo-img{
+  padding-top: 26px;
+  padding-bottom: 41px;
+}
+
+.navigation-list-item-link{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  transition: color 250ms linear;
+}
+
+.navigation-list-item-link:is(:hover, :focus){
+  color: #FFC700;
+}
