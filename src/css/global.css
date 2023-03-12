@@ -4,7 +4,7 @@
     --accent-color: #ffc700;
     --component-color-on-dark-background: #fff;
   }
-  
+
   .container {
     width: 1150px;
     margin-left: auto;
@@ -23,8 +23,8 @@
       margin: 0;
       padding: 0;
   }
-  
-  
+
+
   .link {
       text-decoration: none;
   }
