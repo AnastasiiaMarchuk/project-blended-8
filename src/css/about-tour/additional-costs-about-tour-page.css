@@ -1,0 +1,40 @@
+.body {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.add-cost {
+}
+.container {
+}
+.add-cost-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #0499dd;
+}
+.add-cost-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #282828;
+}
+.sun {
+  width: 57px;
+  height: 57px;
+  left: 582px;
+  top: 3106px;
+  background: #ffc700;
+}
+.coins {
+  width: 30px;
+  height: 30px;
+  left: 909px;
+  top: 3143px;
+}
+.price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #0499dd;
+}
