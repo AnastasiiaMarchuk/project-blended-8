@@ -1,0 +1,68 @@
+.call-back {
+  display: block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/images/call-back-main-page/forest.jpg);
+  margin: 0 auto;
+  max-width: 1440px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e8e8e8;
+  padding-top: 132px;
+  padding-bottom: 143px;
+  backdrop-filter: blur(10px);
+}
+.call-back-container {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.call-back-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+.call-back-descr {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #ffc700;
+  margin-bottom: 45px;
+}
+.call-back-list {
+}
+.list {
+}
+.call-back-item:not(:last-child) {
+  margin-bottom: 45px;
+}
+.call-back-info {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #ffffff;
+  border-bottom: 1px solid;
+}
+
+.call-back-btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  color: #ffffff;
+  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  border-radius: 60px;
+  padding: 16px 52px;
+  margin-top: 83px;
+}
+.btn {
+}
