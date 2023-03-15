@@ -5,6 +5,7 @@
   font-size: 24px;
   line-height: 1.2;
   color: var(--section-title-color-color);
+  margin-bottom: 90px;
 }
 .desc-list-item {
   font-family: 'Montserrat';
@@ -21,4 +22,29 @@
   font-size: 14px;
   line-height: 17px;
   color: var(--primary-paragraph-color);
+  margin-bottom: 40px;
+}
+.desc-page {
+  padding: 150px 0;
+}
+.desc-name {
+  width: 50%;
+  max-width: 550px;
+}
+.desc-content {
+  display: flex;
+}
+.desc-list {
+  display: block;
+}
+.desc-list-item {
+  display: block;
+  padding-bottom: 20px;
+}
+.desc-img {
+  display: flex;
+  gap: 18px;
+}
+.desc-img-list {
+  width: calc((100% - 18px) / 2);
 }
