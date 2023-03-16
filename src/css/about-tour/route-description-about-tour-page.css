@@ -28,8 +28,8 @@
   padding: 150px 0;
 }
 .desc-name {
-  width: 50%;
-  max-width: 550px;
+  width: 30%;
+  max-width: 350px;
 }
 .desc-content {
   display: flex;
@@ -44,8 +44,10 @@
 .desc-img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
 }
 .desc-img-list {
   width: calc((100% - 18px) / 2);
+}
+.desc-img-list {
+  display: flex;
 }
