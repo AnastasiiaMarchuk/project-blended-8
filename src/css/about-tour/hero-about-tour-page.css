@@ -1,12 +1,11 @@
 /* ==================== Hero =============== */
 
 .hero-about-tour-page {
-  width: 1444px;
+  
   padding: 210px 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url('/images/hero-about-tour-page/hero-about-tour.jpg');
-  filter: blur(0.5px);
-  background-size: cover;
+   background-size: cover;
 }
 
 .hero-container {
@@ -31,9 +30,8 @@
 }
 
 .to-our-tours-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   width: 272px;
   padding: 16px 0;
   background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
@@ -42,35 +40,46 @@
   font-size: 14px;
   line-height: 1.21;
   color: var(--component-color-on-dark-background);
-  text-decoration: none;
+  transition: background 250ms linear;
+  }
+
+.arrow-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+fill: currentColor;
 }
 
-.to-our-tours-link:after {
-  content: '';
-  display: block;
-  background-image: url('/images/hero-about-tour-page/arrow.png');
-  margin-left: 14px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  width: 14px;
-  height: 14px;
+.to-our-tours-link:is(:hover, :focus) {
+  background: linear-gradient(92.71deg, #17c1bc 0%, #0499dd 100%);
+}
+
+.link-button-wrapper {
+  display: flex;
+  gap: 15px;
 }
 
 .reaction-favoutite {
   display: flex;
   width: 50px;
   height: 50px;
-  padding: 10px;
+  padding: 11px 10px 9px 10px;
   justify-content: center;
   align-items: center;
-  background: var(--component-color-on-dark-background);
-  opacity: 0.3;
-  backdrop-filter: blur(500px);
-  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.4234943977591037) 0%, rgba(255,255,255,0.5075280112044818) 100%);
+   border-radius: 50%;
   border: none;
+  cursor: pointer;
+  transition: background-color 250ms linear;
 }
 .heart-icon {
   fill: var(--component-color-on-dark-background);
+  
 }
+
+.reaction-favoutite:is(:hover, :focus) {
+    background-color: var(--accent-color) 
+}
+
 
 /* ==================== /Hero =============== */
