@@ -27,6 +27,13 @@
 .desc-page {
   padding: 150px 0;
 }
+.container-items {
+  display: flex;
+}
+.desc-page-list {
+  display: flex;
+  flex-direction: column;
+}
 .desc-name {
   width: 50%;
   max-width: 550px;
@@ -35,7 +42,6 @@
   display: flex;
 }
 .desc-list {
-  display: block;
 }
 .desc-list-item {
   display: block;
