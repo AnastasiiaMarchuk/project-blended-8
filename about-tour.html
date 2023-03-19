@@ -9,14 +9,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-       <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Marko+One&family=Montserrat:ital,wght@0,500;0,900;1,700&display=swap"
       rel="stylesheet"
     />
     
-    <link rel="stylesheet" href="/project-blended-8/assets/styles-991a914a.css">
+    <link rel="stylesheet" href="/project-blended-8/assets/styles-e66b19e2.css">
   </head>
   <body>
     <!-- Header -->
@@ -94,40 +94,59 @@
       <!-- Tour description -->
       <section class="tour-description-section">
   <div class="tour-description-container container">
-    <h2 class="tour-description-title">Tour description</h2>
-    <p class="tour-description-text">
-      The most beautiful palace and park complex in Crimea is located in the
-      city of Alupka. This is probably the richest palace on the peninsula.
-      Almost everything is impressive here - monumental buildings built in
-      architectural styles that combine Moorish traditions characteristic of the
-      peninsula and English motifs. The complex fits perfectly into the
-      surrounding nature. The peaks of Mount Ai-Petri are visible from the
-      territory of the palace. The rich decoration of the interior halls of the
-      palace is striking. Each of them is designed in its own style. Definitely
-      worth visiting this place in the summer when there are many flower beds
-      around.
-    </p>
+    <div class="tour-text-wrapper">
+      <h2 class="tour-description-title">Tour description</h2>
+      <p class="tour-description-text">
+        The most beautiful palace and park complex in Crimea is located in the
+        city of Alupka. This is probably the richest palace on the peninsula.
+        Almost everything is impressive here - monumental buildings built in
+        architectural styles that combine Moorish traditions characteristic of
+        the peninsula and English motifs. The complex fits perfectly into the
+        surrounding nature. The peaks of Mount Ai-Petri are visible from the
+        territory of the palace. The rich decoration of the interior halls of
+        the palace is striking. Each of them is designed in its own style.
+      </p>
+    </div>
     <div class="tour-description-list-container">
       <ul class="tour-description-list">
         <li class="tour-description-item decorative-element">
-          <p class="tour-description-item-text"><svg class="tour-description-item-icon" width="30" height="30">
-            <use href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-costs"></use>
-          </svg>
-          549 €</p>
+          <span class="opasity"></span>
+          <p class="tour-description-item-text">
+            <svg class="tour-description-item-icon" width="30" height="30">
+              <use
+                href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-costs"
+              ></use>
+            </svg>
+            549 €
+          </p>
           <h3 class="tour-description-item-title">Adult ticket</h3>
         </li>
         <li class="tour-description-item decorative-element">
-                   <p class="tour-description-item-text"><svg class="tour-description-item-icon" width="30" height="30">
-            <use href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-costs"></use>
-          </svg>
-          499 €</p>
-           <h3 class="tour-description-item-title">Children's ticket</h3>
+          <span class="opasity"> </span>
+          <p class="tour-description-item-text">
+            <svg class="tour-description-item-icon" width="30" height="30">
+              <use
+                href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-costs"
+              ></use>
+            </svg>
+            499 €
+          </p>
+          <h3 class="tour-description-item-title">Children's ticket</h3>
         </li>
         <li class="tour-description-item decorative-element">
-          <p class="tour-description-item-text"><svg class="tour-description-item-icon tour-description-item-icon-clock" width="19" height="19">
-            <use href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-clock"></use>
-          </svg>
-          12 hours</p>
+          <span class="opasity"> </span>
+          <p class="tour-description-item-text">
+            <svg
+              class="tour-description-item-icon tour-description-item-icon-clock"
+              width="19"
+              height="19"
+            >
+              <use
+                href="/project-blended-8/assets/tour-description-icons-bb273436.svg#icon-clock"
+              ></use>
+            </svg>
+            12 hours
+          </p>
           <h3 class="tour-description-item-title visually-hidden">Duration</h3>
         </li>
       </ul>
@@ -137,7 +156,12 @@
 
 
       <!-- Travel calendar -->
-      <p>travel-calender-about-tour-page</p>
+      <section class="travel-calender-section">
+  <div class="travel-calender-container container">
+    <h3 class="travel-calender-title">Travel calender</h3>
+    <div class="calender-wrapper"></div>
+  </div>
+</section>
 
 
       <!-- Route description -->
@@ -436,7 +460,70 @@
 
 
       <!-- Book the tour -->
-      <p>booking-about-tour-page</p>
+      <section class="booking-section">
+  <div class="booking-container container">
+    <form class="booking-form">
+      <p class="booking-form-title">Book the tour</p>
+      <label class="booking-form-field">
+        <span class="booking-form-input-wrapper">
+          <input
+            class="booking-form-input margin-bottom"
+            type="text"
+            name="date"
+            class="booking-form-text"
+            placeholder="28 June 2023"
+          />
+          <svg class="booking-form-input-icon" width="23" height="23">
+            <use
+              href="/project-blended-8/assets/icons-81411f91.svg#icon-calender"
+            ></use>
+          </svg>
+        </span>
+      </label>
+      <label class="booking-form-field">
+        <span class="booking-form-input-wrapper">
+          <input
+            class="booking-form-input margin-bottom"
+            type="text"
+            name="number_of_adults"
+            placeholder="5 adults"
+          />
+          <svg class="booking-form-input-icon" width="23" height="23">
+            <use
+              href="/project-blended-8/assets/icons-81411f91.svg#icon-people"
+            ></use>
+          </svg>
+        </span>
+      </label>
+      <label class="booking-form-field">
+        <span class="booking-form-input-wrapper">
+          <input
+            class="booking-form-input"
+            type="text"
+            name="number_of_children"
+            class="booking-form-text"
+            placeholder="2 childer"
+          />
+          <svg class="booking-form-input-icon" width="23" height="23">
+            <use
+              href="/project-blended-8/assets/icons-81411f91.svg#icon-people"
+            ></use>
+          </svg>
+        </span>
+      </label>
+      <div class="booking-form-button-wrapper">
+        <button type="submit" class="booking-button">Book</button>
+        <button class="reaction-favoutite" type="submit">
+          <svg class="heart-icon" width="30" height="30">
+            <use
+              href="/project-blended-8/assets/sprite-fd08eb44.svg#icon-heart"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
 
     </main>
     <footer>
