@@ -1,16 +1,17 @@
 /* ==================== Hero =============== */
 
 .hero-about-tour-page {
-  
   padding: 210px 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url('/images/hero-about-tour-page/hero-about-tour.jpg');
-   background-size: cover;
+  background-size: cover;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat';
+  font-style: normal;
 }
 
 .hero-subtitle {
@@ -34,24 +35,26 @@
   text-align: center;
   width: 272px;
   padding: 16px 0;
-  background: linear-gradient(92.71deg, #0499dd 0%, #17c1bc 100%);
+  background: linear-gradient(92.71deg, #0499dd, transparent) #17c1bc;
   border-radius: 60px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21;
   color: var(--component-color-on-dark-background);
-  transition: background 250ms linear;
-  }
+  transition: all 250ms;
+}
 
 .arrow-icon {
   display: inline-block;
+  padding-top: 2px;
   vertical-align: middle;
   margin-left: 10px;
-fill: currentColor;
+  fill: currentColor;
 }
 
 .to-our-tours-link:is(:hover, :focus) {
-  background: linear-gradient(92.71deg, #17c1bc 0%, #0499dd 100%);
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 
 .link-button-wrapper {
@@ -66,20 +69,23 @@ fill: currentColor;
   padding: 11px 10px 9px 10px;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle, rgba(255,255,255,0.4234943977591037) 0%, rgba(255,255,255,0.5075280112044818) 100%);
-   border-radius: 50%;
+  background: #ededed;
+  border-radius: 50%;
   border: none;
   cursor: pointer;
-  transition: background-color 250ms linear;
+  transition: all 250ms;
 }
 .heart-icon {
   fill: var(--component-color-on-dark-background);
-  
 }
 
 .reaction-favoutite:is(:hover, :focus) {
-    background-color: var(--accent-color) 
+  background-color: var(--accent-color);
 }
 
+.reaction-favoutite:active {
+  background-color: var(--accent-color);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
 
 /* ==================== /Hero =============== */
