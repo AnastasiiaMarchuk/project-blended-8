@@ -1,0 +1,32 @@
+.travel-calender-section {
+  padding: 150px 0;
+  background-color: #0499dd;
+  background: url('/images/travel-calender-about-tour-page/calender-about-tour.jpg');
+  background-size: 825px 877px;
+  background-repeat: no-repeat;
+}
+
+.calender-wrapper {
+  width: 560px;
+  height: 456px;
+  background: #ededed;
+  border-radius: 10px;
+  align-items: right;
+}
+
+.travel-calender-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.travel-calender-title {
+  margin-bottom: 90px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: right;
+  color: #0499dd;
+}

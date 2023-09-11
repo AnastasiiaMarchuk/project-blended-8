@@ -1,35 +1,36 @@
 :root {
-    --primary-paragraph-color: #282828;
-    --section-title-color-color: #0499dd;
-    --accent-color: #ffc700;
-    --component-color-on-dark-background: #fff;
-  }
+  --primary-paragraph-color: #282828;
+  --section-title-color-color: #0499dd;
+  --accent-color: #ffc700;
+  --component-color-on-dark-background: #fff;
 
-  .container {
-    width: 1150px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 1px solid tomato;
-  }
-  body{
-    background-color:darkgrey;
-  }
-  h1,
-  h2,
-  h3,
-  p {
-      margin: 0;
-      padding: 0;
-  }
+  --primary-font: 'Monserrat', sant-serif;
+}
 
+.container {
+  width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid tomato;
+}
+body {
+}
 
-  .link {
-      text-decoration: none;
-  }
-  .list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-  }
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
